@@ -1,13 +1,9 @@
 var hierarchy =
 [
-    [ "Allocator", "structAllocator.html", null ],
-    [ "AllocatorChecker", "classAllocatorChecker.html", null ],
     [ "ASYNC", "structASYNC.html", null ],
     [ "cache< Key, Value >", "structcache.html", null ],
     [ "vm::SymbolTable::ClassTable", "structvm_1_1SymbolTable_1_1ClassTable.html", null ],
     [ "gfx::vlQueueSubmissionResult::CommandBufferResult", "structgfx_1_1vlQueueSubmissionResult_1_1CommandBufferResult.html", null ],
-    [ "CopyOperation", "structCopyOperation.html", null ],
-    [ "CopySchedule", "structCopySchedule.html", null ],
     [ "io::DataSource", "structio_1_1DataSource.html", null ],
     [ "dim3", "structdim3.html", null ],
     [ "io::DriverCreateInfo", "structio_1_1DriverCreateInfo.html", [
@@ -69,16 +65,12 @@ var hierarchy =
     [ "monitor_lock< lock, T >", "structmonitor__lock.html", null ],
     [ "Object", "structObject.html", [
       [ "gfx::vlBuffer", "structgfx_1_1vlBuffer.html", [
-        [ "gfx::vlBufferUtil", "structgfx_1_1vlBufferUtil.html", [
-          [ "gfx::vlBufferImpl", "structgfx_1_1vlBufferImpl.html", null ],
-          [ "gfx::vlDynamicBuffer", "structgfx_1_1vlDynamicBuffer.html", null ]
-        ] ]
+        [ "gfx::vlBufferImpl", "structgfx_1_1vlBufferImpl.html", null ]
       ] ],
       [ "gfx::vlCommandBuffer", "structgfx_1_1vlCommandBuffer.html", [
         [ "gfx::vlCommandBufferImpl", "structgfx_1_1vlCommandBufferImpl.html", null ]
       ] ]
     ] ],
-    [ "OpStats", "structOpStats.html", null ],
     [ "gfx::PendingBufferBarrier", "structgfx_1_1PendingBufferBarrier.html", null ],
     [ "gfx::PendingImageBarrier", "structgfx_1_1PendingImageBarrier.html", null ],
     [ "ptr_common", "structptr__common.html", [
@@ -180,7 +172,9 @@ var hierarchy =
     [ "gfx::vlFrameChain", "structgfx_1_1vlFrameChain.html", [
       [ "gfx::vlFrameChainImpl", "structgfx_1_1vlFrameChainImpl.html", null ]
     ] ],
-    [ "gfx::vlFrameChainCreateInfo", "structgfx_1_1vlFrameChainCreateInfo.html", null ],
+    [ "gfx::vlFrameChainCreateInfo", "structgfx_1_1vlFrameChainCreateInfo.html", [
+      [ "gfx::vlFrameChainImpl", "structgfx_1_1vlFrameChainImpl.html", null ]
+    ] ],
     [ "gfx::vlImage", "structgfx_1_1vlImage.html", null ],
     [ "gfx::vlImageState", "structgfx_1_1vlImageState.html", null ],
     [ "gfx::vlImageView", "structgfx_1_1vlImageView.html", [

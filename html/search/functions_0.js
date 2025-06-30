@@ -10,14 +10,12 @@ var searchData=
   ['addvertex_7',['AddVertex',['../structgfx_1_1vlPipelineBuilder.html#a3a5cd6abd9cd2a50e676e6d31ab01dc3',1,'gfx::vlPipelineBuilder::AddVertex(vlVertex vtx)'],['../structgfx_1_1vlPipelineBuilder.html#af3ed48c56dc9394f898b6524009acbb9',1,'gfx::vlPipelineBuilder::AddVertex(int location, VkFormat format, int offset, int stride, int binding=0, bool instanced=0)']]],
   ['advance_5fto_5fvalid_8',['advance_to_valid',['../classntl_1_1slotter_1_1iterator.html#aa118348c33fac77bf2b64adcffcdcae2',1,'ntl::slotter::iterator']]],
   ['algeterrorstring_9',['alGetErrorString',['../audio_8cpp.html#a95b086722f674ae87fe289cc4ba4b201',1,'audio.cpp']]],
-  ['allocator_10',['Allocator',['../structAllocator.html#adfe56b7d3a3d3103db75203cafa07404',1,'Allocator']]],
-  ['applications_11',['applications',['../application__test_8hpp.html#abb29ec1c43f863ca0c122102f8aee1bb',1,'applications():&#160;application_test.cpp'],['../application__test_8cpp.html#abb29ec1c43f863ca0c122102f8aee1bb',1,'applications():&#160;application_test.cpp']]],
-  ['applicationtestaudio_12',['applicationTestAudio',['../testaudio_8cpp.html#af842069b5d2808f9af9652d38745e317',1,'applicationTestAudio():&#160;testaudio.cpp'],['../application__test_8hpp.html#af842069b5d2808f9af9652d38745e317',1,'applicationTestAudio():&#160;testaudio.cpp']]],
-  ['applicationtestrender_13',['applicationTestRender',['../application__test_8hpp.html#a2f151b6c8ee214597d8c0a563ee6d2f3',1,'applicationTestRender():&#160;testrender.cpp'],['../testrender_8cpp.html#a2f151b6c8ee214597d8c0a563ee6d2f3',1,'applicationTestRender():&#160;testrender.cpp']]],
-  ['asengineimpl_14',['AsEngineImpl',['../structvm_1_1AsEngineImpl.html#a35d45314cf0478951a460ec3279c8ccb',1,'vm::AsEngineImpl']]],
-  ['asmodulebuilder_15',['asModuleBuilder',['../namespacevm.html#a7b6b390b45b4b18589f9dba814bfdc4c',1,'vm']]],
-  ['asmoduleimpl_16',['AsModuleImpl',['../structvm_1_1AsModuleImpl.html#a4e523cedee2e118f9003bdfbd407fe13',1,'vm::AsModuleImpl']]],
-  ['assert_5fnot_5fnull_5fimpl_17',['assert_not_null_impl',['../ptr__util_8hpp.html#a06701554d366b8457a15320128f8baa0',1,'ptr_util.hpp']]],
-  ['async_18',['async',['../structASYNC.html#ac636eaec4f8be9904227d8bc8d69a75f',1,'ASYNC::async()'],['../classthreadpool.html#a40bf38c628826a4a2a7e82f42a33265a',1,'threadpool::async()']]],
-  ['averagemicros_19',['averageMicros',['../structOpStats.html#adfb6d61a9c8daf69b6bbbc17ef693862',1,'OpStats']]]
+  ['applications_10',['applications',['../application__test_8hpp.html#abb29ec1c43f863ca0c122102f8aee1bb',1,'applications():&#160;application_test.cpp'],['../application__test_8cpp.html#abb29ec1c43f863ca0c122102f8aee1bb',1,'applications():&#160;application_test.cpp']]],
+  ['applicationtestaudio_11',['applicationTestAudio',['../testaudio_8cpp.html#af842069b5d2808f9af9652d38745e317',1,'applicationTestAudio():&#160;testaudio.cpp'],['../application__test_8hpp.html#af842069b5d2808f9af9652d38745e317',1,'applicationTestAudio():&#160;testaudio.cpp']]],
+  ['applicationtestrender_12',['applicationTestRender',['../application__test_8hpp.html#a2f151b6c8ee214597d8c0a563ee6d2f3',1,'applicationTestRender():&#160;testrender.cpp'],['../testrender_8cpp.html#a2f151b6c8ee214597d8c0a563ee6d2f3',1,'applicationTestRender():&#160;testrender.cpp']]],
+  ['asengineimpl_13',['AsEngineImpl',['../structvm_1_1AsEngineImpl.html#a35d45314cf0478951a460ec3279c8ccb',1,'vm::AsEngineImpl']]],
+  ['asmodulebuilder_14',['asModuleBuilder',['../namespacevm.html#a7b6b390b45b4b18589f9dba814bfdc4c',1,'vm']]],
+  ['asmoduleimpl_15',['AsModuleImpl',['../structvm_1_1AsModuleImpl.html#a4e523cedee2e118f9003bdfbd407fe13',1,'vm::AsModuleImpl']]],
+  ['assert_5fnot_5fnull_5fimpl_16',['assert_not_null_impl',['../ptr__util_8hpp.html#a06701554d366b8457a15320128f8baa0',1,'ptr_util.hpp']]],
+  ['async_17',['async',['../structASYNC.html#ac636eaec4f8be9904227d8bc8d69a75f',1,'ASYNC::async()'],['../classthreadpool.html#a40bf38c628826a4a2a7e82f42a33265a',1,'threadpool::async()']]]
 ];

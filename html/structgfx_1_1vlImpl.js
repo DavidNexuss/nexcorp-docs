@@ -13,7 +13,6 @@ var structgfx_1_1vlImpl =
     [ "getRequiredValidationLayers", "structgfx_1_1vlImpl.html#a0da52947b205e8898cebb29d239d95b0", null ],
     [ "getRootWindow", "structgfx_1_1vlImpl.html#a4fd75f682bba10de9a1d20256dd9d901", null ],
     [ "getValidationLayers", "structgfx_1_1vlImpl.html#ad44c63180a11a72fad6b4122f085a4ee", null ],
-    [ "getVmaAllocator", "structgfx_1_1vlImpl.html#a768383de5201f875d20d1d927880e756", null ],
     [ "scorePhysicalDevice", "structgfx_1_1vlImpl.html#af33915885fda4799d78c09b348ed32ae", null ],
     [ "vlCheckDeviceExtensionSupport", "structgfx_1_1vlImpl.html#a3746d57f75f01b9c6daa127409a8dc09", null ],
     [ "vlCreate", "structgfx_1_1vlImpl.html#a28b7dc29141a2a37ed1f70e3c6b608a3", null ],
@@ -29,6 +28,5 @@ var structgfx_1_1vlImpl =
     [ "info", "structgfx_1_1vlImpl.html#abf37647c10197bc32fe17b07f1337527", null ],
     [ "instance", "structgfx_1_1vlImpl.html#a716a3c9afa67dcac44c8b3f44893775e", null ],
     [ "rootWindow", "structgfx_1_1vlImpl.html#a830d95b148d1bfd1c949f74fe929058a", null ],
-    [ "validationLayers", "structgfx_1_1vlImpl.html#ad2cec2e3ae9bebabfc0c8c04104e5788", null ],
-    [ "vmaAllocator", "structgfx_1_1vlImpl.html#a0adea11f9e875c504ce77950e538a80a", null ]
+    [ "validationLayers", "structgfx_1_1vlImpl.html#ad2cec2e3ae9bebabfc0c8c04104e5788", null ]
 ];

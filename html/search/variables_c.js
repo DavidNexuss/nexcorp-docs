@@ -2,7 +2,7 @@ var searchData=
 [
   ['mdct_5foverlap_0',['mdct_overlap',['../structdrmp3dec.html#aa3a8b3465682a3ab6bd800341617ee7e',1,'drmp3dec']]],
   ['memory_1',['memory',['../structdrmp3.html#a4828998af49b9c94af19b11f363ccb3c',1,'drmp3::memory'],['../structgfx_1_1vlBufferImpl.html#aed5e7e64afbc01a86da5e60813862b92',1,'gfx::vlBufferImpl::memory']]],
-  ['memoryproperties_2',['memoryProperties',['../structgfx_1_1vlBufferImpl.html#a82b53728d84f4b2c6f9e506c27563b69',1,'gfx::vlBufferImpl::memoryProperties'],['../structgfx_1_1vlDynamicBuffer.html#ab8833492b206cdba81160dfe6d5b8872',1,'gfx::vlDynamicBuffer::memoryProperties']]],
+  ['memoryproperties_2',['memoryproperties',['../structgfx_1_1vlBufferImpl.html#af3b135794c4d7c4f8281049a534e203b',1,'gfx::vlBufferImpl']]],
   ['memorystream_3',['memoryStream',['../structdrwav.html#a6bffd178879c0016be00a08b124fa976',1,'drwav']]],
   ['memorystreamwrite_4',['memoryStreamWrite',['../structdrwav.html#a6cf469b4270d486b8940be5e2cc2f961',1,'drwav']]],
   ['memrequirements_5',['memRequirements',['../structgfx_1_1vlDeviceMemoryImpl.html#a7dc91812aeaf89c9d0ad5a1c1c848587',1,'gfx::vlDeviceMemoryImpl']]],

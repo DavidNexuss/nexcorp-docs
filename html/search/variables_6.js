@@ -28,9 +28,8 @@ var searchData=
   ['framesinflight_25',['framesInFlight',['../structgfx_1_1vlFrameChainCreateInfo.html#ae7801da5b6d6e446580ae1b248c840c5',1,'gfx::vlFrameChainCreateInfo']]],
   ['free_5fformat_5fbytes_26',['free_format_bytes',['../structdrmp3dec.html#a3d9913952fef5b67f9c064d56650cd1e',1,'drmp3dec']]],
   ['free_5fhead_27',['free_head',['../structstbrp__context.html#a1336ae32373663847866cc65904c2839',1,'stbrp_context']]],
-  ['freeblocks_5f_28',['freeBlocks_',['../structAllocator.html#aaea0abe78cce95045684d33780cf2a2d',1,'Allocator']]],
-  ['frequency_29',['frequency',['../structserialize_1_1TrackData.html#ada8cb34c5a9d8b7d49d9f50b981c6306',1,'serialize::TrackData']]],
-  ['fs_30',['fs',['../structApplication.html#a3f62ac2cf5cfb8280c86947203c68db1',1,'Application']]],
-  ['functions_31',['functions',['../structvm_1_1SymbolTable.html#ade6fb2619ceb261c56a501e7f88a5cec',1,'vm::SymbolTable']]],
-  ['fut_32',['fut',['../structptr_1_1sharedstate_1_1futureValue.html#a34ff5d89d1b5c5c6cc0ac3c4fe0cd2d5',1,'ptr::sharedstate::futureValue::fut'],['../structptr_1_1sharedstate.html#ad5cf62d245791cd8a293e0b81497f9ae',1,'ptr::sharedstate::fut']]]
+  ['frequency_28',['frequency',['../structserialize_1_1TrackData.html#ada8cb34c5a9d8b7d49d9f50b981c6306',1,'serialize::TrackData']]],
+  ['fs_29',['fs',['../structApplication.html#a3f62ac2cf5cfb8280c86947203c68db1',1,'Application']]],
+  ['functions_30',['functions',['../structvm_1_1SymbolTable.html#ade6fb2619ceb261c56a501e7f88a5cec',1,'vm::SymbolTable']]],
+  ['fut_31',['fut',['../structptr_1_1sharedstate_1_1futureValue.html#a34ff5d89d1b5c5c6cc0ac3c4fe0cd2d5',1,'ptr::sharedstate::futureValue::fut'],['../structptr_1_1sharedstate.html#ad5cf62d245791cd8a293e0b81497f9ae',1,'ptr::sharedstate::fut']]]
 ];

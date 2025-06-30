@@ -13,14 +13,13 @@ var searchData=
   ['dependencies_10',['dependencies',['../structgfx_1_1vlQueueSubmissionResult_1_1CommandBufferResult.html#ad1f563edcfeda0973a0fa99a754900c8',1,'gfx::vlQueueSubmissionResult::CommandBufferResult']]],
   ['depth_11',['depth',['../structgfx_1_1vlFrameBufferCreateInfo.html#a0480d03ad881031f85e6697f05b94b57',1,'gfx::vlFrameBufferCreateInfo']]],
   ['depthstencilattachment_12',['depthStencilAttachment',['../structgfx_1_1vlSubRenderPassCreateInfo.html#a8291ba9501fbdb5891733e80d853935a',1,'gfx::vlSubRenderPassCreateInfo']]],
-  ['destination_13',['destination',['../structCopyOperation.html#aabe7c5fed53cd1d938564291cd4efd6c',1,'CopyOperation']]],
-  ['device_14',['device',['../structgfx_1_1vlImpl_1_1vlDevice.html#a41f094f2ac779d3a1d22a23d86c7279f',1,'gfx::vlImpl::vlDevice::device'],['../structgfx_1_1vlImpl.html#acc9bc11b9a4fdee5400afb8a8361e428',1,'gfx::vlImpl::device'],['../namespaceaudio.html#a862c387010c1f32f4efab059c583d522',1,'audio::device']]],
-  ['deviceextensions_15',['deviceExtensions',['../structgfx_1_1vlImpl.html#a86378241fa36ba10098a4f2f9eb972f5',1,'gfx::vlImpl']]],
-  ['driver_16',['driver',['../structio_1_1FileImpl.html#acc6a0d5997ce7e1c7e70f05cf5fc4000',1,'io::FileImpl']]],
-  ['ds_17',['ds',['../structgfx_1_1vlFrameBufferCreateInfo.html#ad5cf93966ab4dc7e9fde76c6dbc684fa',1,'gfx::vlFrameBufferCreateInfo']]],
-  ['dstaccess_18',['dstAccess',['../structgfx_1_1PendingImageBarrier.html#a1d9373459499d4c63fe506b6c6269e4e',1,'gfx::PendingImageBarrier::dstAccess'],['../structgfx_1_1PendingBufferBarrier.html#a7204cae8bd53c3d39e1260aba6b4137f',1,'gfx::PendingBufferBarrier::dstAccess']]],
-  ['dstaccessmask_19',['dstAccessMask',['../structgfx_1_1vlTransitionMode.html#a53877970fccb9d3d89ec5d0e1c978d35',1,'gfx::vlTransitionMode']]],
-  ['dststage_20',['dstStage',['../structgfx_1_1PendingImageBarrier.html#a74d6a1c1545c944e29daa7352cc2edff',1,'gfx::PendingImageBarrier::dstStage'],['../structgfx_1_1PendingBufferBarrier.html#a171c4c36d8054c969afc8befc79af5c9',1,'gfx::PendingBufferBarrier::dstStage']]],
-  ['dststagemask_21',['dstStageMask',['../structgfx_1_1vlTransitionMode.html#aa16a43dadc7c4753a15f5aecc94d4e11',1,'gfx::vlTransitionMode']]],
-  ['duration_22',['duration',['../structaudio_1_1TrackImpl.html#a3a135d94a0a3a2cb9335f7b5a6946ca1',1,'audio::TrackImpl']]]
+  ['device_13',['device',['../structgfx_1_1vlImpl_1_1vlDevice.html#a41f094f2ac779d3a1d22a23d86c7279f',1,'gfx::vlImpl::vlDevice::device'],['../structgfx_1_1vlImpl.html#acc9bc11b9a4fdee5400afb8a8361e428',1,'gfx::vlImpl::device'],['../namespaceaudio.html#a862c387010c1f32f4efab059c583d522',1,'audio::device']]],
+  ['deviceextensions_14',['deviceExtensions',['../structgfx_1_1vlImpl.html#a86378241fa36ba10098a4f2f9eb972f5',1,'gfx::vlImpl']]],
+  ['driver_15',['driver',['../structio_1_1FileImpl.html#acc6a0d5997ce7e1c7e70f05cf5fc4000',1,'io::FileImpl']]],
+  ['ds_16',['ds',['../structgfx_1_1vlFrameBufferCreateInfo.html#ad5cf93966ab4dc7e9fde76c6dbc684fa',1,'gfx::vlFrameBufferCreateInfo']]],
+  ['dstaccess_17',['dstAccess',['../structgfx_1_1PendingImageBarrier.html#a1d9373459499d4c63fe506b6c6269e4e',1,'gfx::PendingImageBarrier::dstAccess'],['../structgfx_1_1PendingBufferBarrier.html#a7204cae8bd53c3d39e1260aba6b4137f',1,'gfx::PendingBufferBarrier::dstAccess']]],
+  ['dstaccessmask_18',['dstAccessMask',['../structgfx_1_1vlTransitionMode.html#a53877970fccb9d3d89ec5d0e1c978d35',1,'gfx::vlTransitionMode']]],
+  ['dststage_19',['dstStage',['../structgfx_1_1PendingImageBarrier.html#a74d6a1c1545c944e29daa7352cc2edff',1,'gfx::PendingImageBarrier::dstStage'],['../structgfx_1_1PendingBufferBarrier.html#a171c4c36d8054c969afc8befc79af5c9',1,'gfx::PendingBufferBarrier::dstStage']]],
+  ['dststagemask_20',['dstStageMask',['../structgfx_1_1vlTransitionMode.html#aa16a43dadc7c4753a15f5aecc94d4e11',1,'gfx::vlTransitionMode']]],
+  ['duration_21',['duration',['../structaudio_1_1TrackImpl.html#a3a135d94a0a3a2cb9335f7b5a6946ca1',1,'audio::TrackImpl']]]
 ];

@@ -135,66 +135,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>allocator.hpp</name>
-    <path>src/core/containers/</path>
-    <filename>allocator_8hpp.html</filename>
-    <class kind="struct">CopyOperation</class>
-    <class kind="struct">CopySchedule</class>
-    <class kind="struct">Allocator</class>
-    <member kind="enumeration">
-      <type></type>
-      <name>AllocationStrategy</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>ab96871c28164299debdb357e4f932a5f</anchor>
-      <clangid>c:@E@AllocationStrategy</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>ALLOCATION_STRATEGY_AUTO</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>ab96871c28164299debdb357e4f932a5facc3e2f15becfafc7931bbc17ec439e47</anchor>
-      <clangid>c:@E@AllocationStrategy@ALLOCATION_STRATEGY_AUTO</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>ALLOCATION_STRATEGY_FIRST</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>ab96871c28164299debdb357e4f932a5fa7870f37222cf0d244dd55012b172a50c</anchor>
-      <clangid>c:@E@AllocationStrategy@ALLOCATION_STRATEGY_FIRST</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>ALLOCATION_STRATEGY_BEST</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>ab96871c28164299debdb357e4f932a5fad53502d9bb6a05fec758bd9885768b95</anchor>
-      <clangid>c:@E@AllocationStrategy@ALLOCATION_STRATEGY_BEST</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr size_t</type>
-      <name>INVALID_BUCKET</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>adfea7541e8681cdb82e978cbedbd91c8</anchor>
-      <clangid>c:allocator.hpp@INVALID_BUCKET</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr size_t</type>
-      <name>OPTIMIZE_THRESHOLD</name>
-      <anchorfile>allocator_8hpp.html</anchorfile>
-      <anchor>a7cad6a6fc352762c3bd20152503a0867</anchor>
-      <clangid>c:allocator.hpp@OPTIMIZE_THRESHOLD</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>allocator_checker.hpp</name>
-    <path>src/core/containers/</path>
-    <filename>allocator__checker_8hpp.html</filename>
-    <includes id="allocator_8hpp" name="allocator.hpp" local="yes" import="no" module="no" objc="no">allocator.hpp</includes>
-    <class kind="class">AllocatorChecker</class>
-  </compound>
-  <compound kind="file">
     <name>sharedset.hpp</name>
     <path>src/core/containers/</path>
     <filename>sharedset_8hpp.html</filename>
@@ -224,68 +164,6 @@
     <class kind="class">ntl::slotter</class>
     <class kind="class">ntl::slotter::iterator</class>
     <namespace>ntl</namespace>
-  </compound>
-  <compound kind="file">
-    <name>testallocator.cpp</name>
-    <path>src/core/containers/</path>
-    <filename>testallocator_8cpp.html</filename>
-    <includes id="allocator_8hpp" name="allocator.hpp" local="yes" import="no" module="no" objc="no">allocator.hpp</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>printSchedule</name>
-      <anchorfile>testallocator_8cpp.html</anchorfile>
-      <anchor>a2b5221aa6238ad871d088a27a8309589</anchor>
-      <clangid>c:@F@printSchedule#&amp;1$@S@CopySchedule#</clangid>
-      <arglist>(const CopySchedule &amp;schedule)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>testAllocator</name>
-      <anchorfile>testallocator_8cpp.html</anchorfile>
-      <anchor>af5ba6a878f1950a757790b54d4dd0552</anchor>
-      <clangid>c:@F@testAllocator#</clangid>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>testallocatorbench.cpp</name>
-    <path>src/core/containers/</path>
-    <filename>testallocatorbench_8cpp.html</filename>
-    <includes id="allocator_8hpp" name="allocator.hpp" local="yes" import="no" module="no" objc="no">allocator.hpp</includes>
-    <includes id="allocator__checker_8hpp" name="allocator_checker.hpp" local="yes" import="no" module="no" objc="no">allocator_checker.hpp</includes>
-    <class kind="struct">OpStats</class>
-    <member kind="function">
-      <type>void</type>
-      <name>benchmarkAllocator</name>
-      <anchorfile>testallocatorbench_8cpp.html</anchorfile>
-      <anchor>a437f549be64a73d72f1c4f2ec73c6b2c</anchor>
-      <clangid>c:@F@benchmarkAllocator#l#l#</clangid>
-      <arglist>(size_t iterations, size_t opsPerIteration)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>testBenchmarkAllocator</name>
-      <anchorfile>testallocatorbench_8cpp.html</anchorfile>
-      <anchor>aaa9f8e231b4fb2366a112416663bfc03</anchor>
-      <clangid>c:@F@testBenchmarkAllocator#</clangid>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr size_t</type>
-      <name>POOL_SIZE</name>
-      <anchorfile>testallocatorbench_8cpp.html</anchorfile>
-      <anchor>a4bda76a96d93c13d7f7d5f96e03f7d92</anchor>
-      <clangid>c:testallocatorbench.cpp@POOL_SIZE</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr size_t</type>
-      <name>BASE_ADDR</name>
-      <anchorfile>testallocatorbench_8cpp.html</anchorfile>
-      <anchor>a03914c3a10b972b73c32325027739f34</anchor>
-      <clangid>c:testallocatorbench.cpp@BASE_ADDR</clangid>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>core.hpp</name>
@@ -4323,13 +4201,6 @@
       <anchor>ab91f325a54d3e35fe831a86d6382c2a9</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>VMA_IMPLEMENTATION</name>
-      <anchorfile>vl_8cpp.html</anchorfile>
-      <anchor>abea80547807da765ebe9fce1c6dd6a8d</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>vl.hpp</name>
@@ -4376,9 +4247,7 @@
     <includes id="vlBuffer_8hpp" name="vlBuffer.hpp" local="yes" import="no" module="no" objc="no">vlBuffer.hpp</includes>
     <includes id="vlDeviceMemory_8hpp" name="vlDeviceMemory.hpp" local="yes" import="no" module="no" objc="no">vlDeviceMemory.hpp</includes>
     <includes id="vlCore_8hpp" name="vlCore.hpp" local="no" import="no" module="no" objc="no">runtime/vl/vlCore.hpp</includes>
-    <class kind="struct">gfx::vlBufferUtil</class>
     <class kind="struct">gfx::vlBufferImpl</class>
-    <class kind="struct">gfx::vlDynamicBuffer</class>
     <namespace>gfx</namespace>
   </compound>
   <compound kind="file">
@@ -4919,168 +4788,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>Allocator</name>
-    <filename>structAllocator.html</filename>
-    <clangid>c:@S@Allocator</clangid>
-    <member kind="function">
-      <type></type>
-      <name>Allocator</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>adfe56b7d3a3d3103db75203cafa07404</anchor>
-      <clangid>c:@S@Allocator@F@Allocator#I#I#</clangid>
-      <arglist>(size_t poolSize, size_t baseAddress)</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>bucketAllocate</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a58c4dcc28ba129a4691eb6f1ea56bae7</anchor>
-      <clangid>c:@S@Allocator@F@bucketAllocate#I#I#$@E@AllocationStrategy#</clangid>
-      <arglist>(size_t requiredSize, size_t alignment, AllocationStrategy strategy=ALLOCATION_STRATEGY_AUTO)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>bucketRelease</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>ad89b77db3f246461ae6b8e61d92b5bc7</anchor>
-      <clangid>c:@S@Allocator@F@bucketRelease#I#</clangid>
-      <arglist>(size_t bucket)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>optimize</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a0cf6f4d97a354fbc1f5d80616a0c7072</anchor>
-      <clangid>c:@S@Allocator@F@optimize#</clangid>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>bucketGetPointer</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a3237fa0a56185c0086c173724eadc3b6</anchor>
-      <clangid>c:@S@Allocator@F@bucketGetPointer#I#</clangid>
-      <arglist>(size_t bucket)</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>bucketGetSize</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a1acb07d946ae7abd6745455c05af87e3</anchor>
-      <clangid>c:@S@Allocator@F@bucketGetSize#I#</clangid>
-      <arglist>(size_t bucket)</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>bucketGetEntrySize</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>afbfa4e05c95c36111c060b86b1940dc1</anchor>
-      <clangid>c:@S@Allocator@F@bucketGetEntrySize#I#</clangid>
-      <arglist>(size_t bucket)</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>bucketResize</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>ab1a247075a425cb5e406a34539d65717</anchor>
-      <clangid>c:@S@Allocator@F@bucketResize#I#I#</clangid>
-      <arglist>(size_t bucket, size_t newRequiredSize)</arglist>
-    </member>
-    <member kind="function">
-      <type>CopySchedule</type>
-      <name>defrag</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>af890d4adc0c46acfa7ad344d17c9223b</anchor>
-      <clangid>c:@S@Allocator@F@defrag#</clangid>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>getPoolSize</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>ae4285f85b8f2a97f2fa36e70c906ba19</anchor>
-      <clangid>c:@S@Allocator@F@getPoolSize#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>size_t</type>
-      <name>getPoolUsasge</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a76c35d0fa59ab8c57c7dbb4b0cfefbe3</anchor>
-      <clangid>c:@S@Allocator@F@getPoolUsasge#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>float</type>
-      <name>getPoolFragmentationRation</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a3b52d84f9c28651483d18a0ef0e3c25d</anchor>
-      <clangid>c:@S@Allocator@F@getPoolFragmentationRation#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>size_t</type>
-      <name>poolSize_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>afcda7c6d16c8f6445ab1b66942e237f7</anchor>
-      <clangid>c:@S@Allocator@FI@poolSize_</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>size_t</type>
-      <name>baseAddress_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a14e67f1e4e543b5d86bdfd6ba1dcc1f9</anchor>
-      <clangid>c:@S@Allocator@FI@baseAddress_</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>size_t</type>
-      <name>nextBucket_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>af9a8d7626237552fdf0d0f76a0b6d332</anchor>
-      <clangid>c:@S@Allocator@FI@nextBucket_</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>size_t</type>
-      <name>optimizeTargetCounter_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>a1f17403ec7da7af4a6cd16404f1bfa59</anchor>
-      <clangid>c:@S@Allocator@FI@optimizeTargetCounter_</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>std::vector&lt; std::pair&lt; size_t, size_t &gt; &gt;</type>
-      <name>freeBlocks_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>aaea0abe78cce95045684d33780cf2a2d</anchor>
-      <clangid>c:@S@Allocator@FI@freeBlocks_</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="private">
-      <type>std::unordered_map&lt; size_t, std::pair&lt; size_t, size_t &gt; &gt;</type>
-      <name>allocations_</name>
-      <anchorfile>structAllocator.html</anchorfile>
-      <anchor>ab17f2f692cf532744a0ca008fae3c98c</anchor>
-      <clangid>c:@S@Allocator</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>AllocatorChecker</name>
-    <filename>classAllocatorChecker.html</filename>
-    <clangid>c:@S@AllocatorChecker</clangid>
-    <member kind="function" static="yes">
-      <type>static bool</type>
-      <name>check</name>
-      <anchorfile>classAllocatorChecker.html</anchorfile>
-      <anchor>a16b123b230f08e82cd28567b8b5be7a1</anchor>
-      <clangid>c:@S@AllocatorChecker@F@check#&amp;1$@S@Allocator#b#S</clangid>
-      <arglist>(const Allocator &amp;allocator, bool verbose=false)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>Application</name>
     <filename>structApplication.html</filename>
     <clangid>c:@S@Application</clangid>
@@ -5411,48 +5118,6 @@
       <anchorfile>structgfx_1_1vlQueueSubmissionResult_1_1CommandBufferResult.html</anchorfile>
       <anchor>a1c7b3afb4a6a3d82ba56c0a1c4339613</anchor>
       <clangid>c:@N@gfx@S@vlQueueSubmissionResult@S@CommandBufferResult@FI@cmd</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>CopyOperation</name>
-    <filename>structCopyOperation.html</filename>
-    <clangid>c:@S@CopyOperation</clangid>
-    <member kind="variable">
-      <type>size_t</type>
-      <name>source</name>
-      <anchorfile>structCopyOperation.html</anchorfile>
-      <anchor>a9c149cf718ecb5da013804fab8706113</anchor>
-      <clangid>c:@S@CopyOperation@FI@source</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>size_t</type>
-      <name>destination</name>
-      <anchorfile>structCopyOperation.html</anchorfile>
-      <anchor>aabe7c5fed53cd1d938564291cd4efd6c</anchor>
-      <clangid>c:@S@CopyOperation@FI@destination</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>size_t</type>
-      <name>size</name>
-      <anchorfile>structCopyOperation.html</anchorfile>
-      <anchor>aab97709afa33fb9637da8e446cd629cd</anchor>
-      <clangid>c:@S@CopyOperation@FI@size</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>CopySchedule</name>
-    <filename>structCopySchedule.html</filename>
-    <clangid>c:@S@CopySchedule</clangid>
-    <member kind="variable">
-      <type>std::vector&lt; std::vector&lt; CopyOperation &gt; &gt;</type>
-      <name>stages</name>
-      <anchorfile>structCopySchedule.html</anchorfile>
-      <anchor>a5a3c9cf49ce6b94b8ee9c90ad6e88dec</anchor>
-      <clangid>c:@S@CopySchedule@FI@stages</clangid>
       <arglist></arglist>
     </member>
   </compound>
@@ -7736,67 +7401,6 @@
       <anchorfile>structObject.html</anchorfile>
       <anchor>aa3e791419d84c4c346ef9499513b8e00</anchor>
       <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>OpStats</name>
-    <filename>structOpStats.html</filename>
-    <clangid>c:@S@OpStats</clangid>
-    <member kind="function">
-      <type>void</type>
-      <name>record</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>ac41596e915aaabd2b3fce36cbd8f9b40</anchor>
-      <clangid>c:@S@OpStats@F@record#$@N@std@N@chrono@S@duration&gt;#d#$@N@std@S@ratio&gt;#VL1#VL1000000#</clangid>
-      <arglist>(duration&lt; double, std::micro &gt; elapsed)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>averageMicros</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>adfb6d61a9c8daf69b6bbbc17ef693862</anchor>
-      <clangid>c:@S@OpStats@F@averageMicros#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>opsPerSecond</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>abe79297abedaef77cfda102ab297b29d</anchor>
-      <clangid>c:@S@OpStats@F@opsPerSecond#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>worstMicros</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>ac7800a61082263364ccdc829eea0a15f</anchor>
-      <clangid>c:@S@OpStats@F@worstMicros#1</clangid>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="variable">
-      <type>size_t</type>
-      <name>count</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>ac72ee19efb416390ac2cb77c8e62b9f2</anchor>
-      <clangid>c:@S@OpStats@FI@count</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>duration&lt; double, std::micro &gt;</type>
-      <name>total_time</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>a032b74b734a332f80e06deed8394fe69</anchor>
-      <clangid>c:@S@OpStats@FI@total_time</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>duration&lt; double, std::micro &gt;</type>
-      <name>worst_time</name>
-      <anchorfile>structOpStats.html</anchorfile>
-      <anchor>a60d704fa3603530b033ec4c1e13ab31e</anchor>
-      <clangid>c:@S@OpStats@FI@worst_time</clangid>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -10386,14 +9990,6 @@
       <clangid>c:@N@gfx@S@vl@F@getQueueFamilyIndex#$@N@gfx@E@vlQueueType#</clangid>
       <arglist>(vlQueueType type)=0</arglist>
     </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual VmaAllocator</type>
-      <name>getVmaAllocator</name>
-      <anchorfile>structgfx_1_1vl.html</anchorfile>
-      <anchor>a0e492c80ae37ed8b6b1e195d62e43be6</anchor>
-      <clangid>c:@N@gfx@S@vl@F@getVmaAllocator#</clangid>
-      <arglist>()=0</arglist>
-    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~vl</name>
@@ -10454,14 +10050,6 @@
     <clangid>c:@N@gfx@S@vlBuffer</clangid>
     <base>Object</base>
     <member kind="function" virtualness="pure">
-      <type>virtual VkMemoryAllocateFlags</type>
-      <name>getMemoryProperties</name>
-      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
-      <anchor>a8e890be2f6d286a2813b02640b856ed1</anchor>
-      <clangid>c:@N@gfx@S@vlBuffer@F@getMemoryProperties#</clangid>
-      <arglist>()=0</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
       <type>virtual void *</type>
       <name>map</name>
       <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
@@ -10484,6 +10072,38 @@
       <anchor>aa703edd84ddb1be2bd7339500e36b6a0</anchor>
       <clangid>c:@N@gfx@S@vlBuffer@F@getSize#</clangid>
       <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>isHostVisible</name>
+      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
+      <anchor>adcab60351a2248df60b958b050031c88</anchor>
+      <clangid>c:@N@gfx@S@vlBuffer@F@isHostVisible#</clangid>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>isHostCoherent</name>
+      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
+      <anchor>aadfdfea4f158477048d0df8ca647d4bb</anchor>
+      <clangid>c:@N@gfx@S@vlBuffer@F@isHostCoherent#</clangid>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>uploadStaging</name>
+      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
+      <anchor>add9fb61ca9c6f252e19946209c80c35e</anchor>
+      <clangid>c:@N@gfx@S@vlBuffer@F@uploadStaging#$@S@ptr&gt;#$@N@gfx@S@vlCommandBuffer#*v#i#i#</clangid>
+      <arglist>(ptr&lt; vlCommandBuffer &gt; cmd, void *data, uint32_t offset, uint32_t size)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>upload</name>
+      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
+      <anchor>ac374fd3bd02367b13bca897c10489ab5</anchor>
+      <clangid>c:@N@gfx@S@vlBuffer@F@upload#*v#i#i#</clangid>
+      <arglist>(void *data, uint32_t offset, uint32_t size)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual VkBuffer</type>
@@ -10509,38 +10129,6 @@
       <clangid>c:@N@gfx@S@vlBuffer@F@~vlBuffer#</clangid>
       <arglist>()</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>uploadStaging</name>
-      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
-      <anchor>af7cc645ec74ebe1f4a9b337a0394f3d6</anchor>
-      <clangid>c:@N@gfx@S@vlBuffer@F@uploadStaging#$@S@ptr&gt;#$@N@gfx@S@vlCommandBuffer#*v#i#i#</clangid>
-      <arglist>(ptr&lt; vlCommandBuffer &gt; cmd, void *data, uint32_t offset, uint32_t size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>upload</name>
-      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
-      <anchor>a3ca2ace8a898ea2c652c5532f40aef14</anchor>
-      <clangid>c:@N@gfx@S@vlBuffer@F@upload#*v#i#i#</clangid>
-      <arglist>(void *data, uint32_t offset, uint32_t size)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>isHostVisible</name>
-      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
-      <anchor>ac4ea577469f44b16b8de64ad89614a4d</anchor>
-      <clangid>c:@N@gfx@S@vlBuffer@F@isHostVisible#</clangid>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>isHostCoherent</name>
-      <anchorfile>structgfx_1_1vlBuffer.html</anchorfile>
-      <anchor>aff2f02451aace6c6ea940a46d42f5e62</anchor>
-      <clangid>c:@N@gfx@S@vlBuffer@F@isHostCoherent#</clangid>
-      <arglist>()</arglist>
-    </member>
     <member kind="variable">
       <type>vlBufferState</type>
       <name>currentState</name>
@@ -10554,14 +10142,14 @@
     <name>gfx::vlBufferImpl</name>
     <filename>structgfx_1_1vlBufferImpl.html</filename>
     <clangid>c:@N@gfx@S@vlBufferImpl</clangid>
-    <base>gfx::vlBufferUtil</base>
+    <base>gfx::vlBuffer</base>
     <member kind="function">
       <type></type>
       <name>vlBufferImpl</name>
       <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
-      <anchor>af17ea2ae45ffd1307b411837a68f6130</anchor>
-      <clangid>c:@N@gfx@S@vlBufferImpl@F@vlBufferImpl#*$@S@VkBuffer_T#i#i#i#$@S@ptr&gt;#$@N@gfx@S@vlDeviceMemory#</clangid>
-      <arglist>(VkBuffer _buffer, uint32_t _size, VkBufferUsageFlags _usage, VkMemoryAllocateFlags _memoryProperties, ptr&lt; vlDeviceMemory &gt; _memory)</arglist>
+      <anchor>a481bf37fa8525d930c3ddaf75cac849d</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@vlBufferImpl#*$@S@VkBuffer_T#</clangid>
+      <arglist>(VkBuffer _buffer)</arglist>
     </member>
     <member kind="function">
       <type>VkBuffer</type>
@@ -10572,27 +10160,11 @@
       <arglist>() override</arglist>
     </member>
     <member kind="function">
-      <type>VkMemoryAllocateFlags</type>
-      <name>getMemoryProperties</name>
-      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
-      <anchor>a344fee74dd51636498f87da3d235e77e</anchor>
-      <clangid>c:@N@gfx@S@vlBufferImpl@F@getMemoryProperties#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
       <type>uint32_t</type>
       <name>getSize</name>
       <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
       <anchor>a7950568a4e9bc8b66e16b4e921ef918c</anchor>
       <clangid>c:@N@gfx@S@vlBufferImpl@F@getSize#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>VkDeviceMemory</type>
-      <name>getMemoryInternal</name>
-      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
-      <anchor>abd125f295d746dfbae9068433bbb82b9</anchor>
-      <clangid>c:@N@gfx@S@vlBufferImpl@F@getMemoryInternal#</clangid>
       <arglist>() override</arglist>
     </member>
     <member kind="function">
@@ -10619,12 +10191,60 @@
       <clangid>c:@N@gfx@S@vlBufferImpl@F@~vlBufferImpl#</clangid>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flush</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>a7ff9a8047b2310e7ad74c36a79d65e4a</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@flush#l#l#</clangid>
+      <arglist>(size_t offset, size_t size) override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>isHostVisible</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>a49e7a9d702248311a9ce87d8f7a41f4c</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@isHostVisible#</clangid>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>isHostCoherent</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>aa5f68bc913c4b82b0b9faee14106040d</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@isHostCoherent#</clangid>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>upload</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>abdf5759e7684cd07b8b8811786125bf6</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@upload#*v#i#i#</clangid>
+      <arglist>(void *data, uint32_t offset, uint32_t size) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uploadStaging</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>a394784f4f2424a45dd185f5987dccba7</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@F@uploadStaging#$@S@ptr&gt;#$@N@gfx@S@vlCommandBuffer#*v#i#i#</clangid>
+      <arglist>(ptr&lt; vlCommandBuffer &gt; cmd, void *data, uint32_t offset, uint32_t size) override</arglist>
+    </member>
     <member kind="variable">
       <type>VkBufferUsageFlags</type>
       <name>usage</name>
       <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
       <anchor>a59808c64cc49736d37113b5ca3aec478</anchor>
       <clangid>c:@N@gfx@S@vlBufferImpl@FI@usage</clangid>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>VkMemoryAllocateFlags</type>
+      <name>memoryproperties</name>
+      <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
+      <anchor>af3b135794c4d7c4f8281049a534e203b</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@FI@memoryproperties</clangid>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -10652,11 +10272,11 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>VkMemoryAllocateFlags</type>
-      <name>memoryProperties</name>
+      <type>void *</type>
+      <name>currentMap</name>
       <anchorfile>structgfx_1_1vlBufferImpl.html</anchorfile>
-      <anchor>a82b53728d84f4b2c6f9e506c27563b69</anchor>
-      <clangid>c:@N@gfx@S@vlBufferImpl@FI@memoryProperties</clangid>
+      <anchor>a7ab8a123c2cdeb54aa1f58a3d1c314e7</anchor>
+      <clangid>c:@N@gfx@S@vlBufferImpl@FI@currentMap</clangid>
       <arglist></arglist>
     </member>
   </compound>
@@ -10678,52 +10298,6 @@
       <anchorfile>structgfx_1_1vlBufferState.html</anchorfile>
       <anchor>abae57b93c0804aaca71bbe2ec143d025</anchor>
       <clangid>c:@N@gfx@S@vlBufferState@FI@stage</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>gfx::vlBufferUtil</name>
-    <filename>structgfx_1_1vlBufferUtil.html</filename>
-    <clangid>c:@N@gfx@S@vlBufferUtil</clangid>
-    <base>gfx::vlBuffer</base>
-    <member kind="function" virtualness="pure">
-      <type>virtual VkDeviceMemory</type>
-      <name>getMemoryInternal</name>
-      <anchorfile>structgfx_1_1vlBufferUtil.html</anchorfile>
-      <anchor>a0f7ceb49a029b623b3d505643dda0f25</anchor>
-      <clangid>c:@N@gfx@S@vlBufferUtil@F@getMemoryInternal#</clangid>
-      <arglist>()=0</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual void *</type>
-      <name>map</name>
-      <anchorfile>structgfx_1_1vlBufferUtil.html</anchorfile>
-      <anchor>a1af811de9d3436ea3cfed5d7f2124fe9</anchor>
-      <clangid>c:@N@gfx@S@vlBufferUtil@F@map#i#i#</clangid>
-      <arglist>(uint32_t offset, uint32_t size) override=0</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual void</type>
-      <name>unmap</name>
-      <anchorfile>structgfx_1_1vlBufferUtil.html</anchorfile>
-      <anchor>a61ac57f5c338a14a30d4416e4a788b1b</anchor>
-      <clangid>c:@N@gfx@S@vlBufferUtil@F@unmap#</clangid>
-      <arglist>() override=0</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flush</name>
-      <anchorfile>structgfx_1_1vlBufferUtil.html</anchorfile>
-      <anchor>ae13f2f64c594e244e5d86ea41ac47fc1</anchor>
-      <clangid>c:@N@gfx@S@vlBufferUtil@F@flush#l#l#</clangid>
-      <arglist>(size_t offset, size_t size) override</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>void *</type>
-      <name>currentMap</name>
-      <anchorfile>structgfx_1_1vlBufferUtil.html</anchorfile>
-      <anchor>a42d7f23f2cc10291385dc3a66078bda7</anchor>
-      <clangid>c:@N@gfx@S@vlBufferUtil@FI@currentMap</clangid>
       <arglist></arglist>
     </member>
   </compound>
@@ -11876,108 +11450,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>gfx::vlDynamicBuffer</name>
-    <filename>structgfx_1_1vlDynamicBuffer.html</filename>
-    <clangid>c:@N@gfx@S@vlDynamicBuffer</clangid>
-    <base>gfx::vlBufferUtil</base>
-    <member kind="function">
-      <type></type>
-      <name>vlDynamicBuffer</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a8a07b4015dbe168cdc2e704ffe7d53e2</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@vlDynamicBuffer#*$@S@VkBuffer_T#*$@S@VmaAllocation_T#$@S@VmaAllocationInfo#i#</clangid>
-      <arglist>(VkBuffer _buffer, VmaAllocation _allocation, VmaAllocationInfo _allocDetails, VkMemoryAllocateFlags _memoryProperties)</arglist>
-    </member>
-    <member kind="function">
-      <type>VkBuffer</type>
-      <name>getInternal</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>acac3c2b99884236ce02f68f8317e5a6c</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@getInternal#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>VkMemoryAllocateFlags</type>
-      <name>getMemoryProperties</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>abb787d07191294fb4fdb7d6d1ea426a7</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@getMemoryProperties#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>getSize</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a341fce18dbd6c23e43757ce3d05f4f13</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@getSize#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>VkDeviceMemory</type>
-      <name>getMemoryInternal</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>aeac3268e4836a7786efed8f6df16531e</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@getMemoryInternal#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void *</type>
-      <name>map</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a0d7e016ef1a6e61c39122c38a03ce2a4</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@map#i#i#</clangid>
-      <arglist>(uint32_t offset, uint32_t size) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>unmap</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a36697b26ecf7b5f51299e511ba828712</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@unmap#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~vlDynamicBuffer</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>ab530c1b49a1f2be601b60296df4a1d09</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@F@~vlDynamicBuffer#</clangid>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>VkBuffer</type>
-      <name>buffer</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a6e85127f254da6ad3e099a0528855d53</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@FI@buffer</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>VmaAllocation</type>
-      <name>allocation</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a87d4404b9d5dac260ec1964b03816678</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@FI@allocation</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>VmaAllocationInfo</type>
-      <name>allocDetails</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>a7751d27d32bc78cbea41b22c47d444a7</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@FI@allocDetails</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>VkMemoryAllocateFlags</type>
-      <name>memoryProperties</name>
-      <anchorfile>structgfx_1_1vlDynamicBuffer.html</anchorfile>
-      <anchor>ab8833492b206cdba81160dfe6d5b8872</anchor>
-      <clangid>c:@N@gfx@S@vlDynamicBuffer@FI@memoryProperties</clangid>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>gfx::vlFence</name>
     <filename>structgfx_1_1vlFence.html</filename>
     <clangid>c:@N@gfx@S@vlFence</clangid>
@@ -12360,6 +11832,7 @@
     <filename>structgfx_1_1vlFrameChainImpl.html</filename>
     <clangid>c:@N@gfx@S@vlFrameChainImpl</clangid>
     <base>gfx::vlFrameChain</base>
+    <base>gfx::vlFrameChainCreateInfo</base>
     <class kind="struct">gfx::vlFrameChainImpl::vlFrame</class>
     <member kind="function">
       <type>int</type>
@@ -12426,42 +11899,18 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>ptr&lt; vlSwapChain &gt;</type>
-      <name>swapchain</name>
-      <anchorfile>structgfx_1_1vlFrameChainImpl.html</anchorfile>
-      <anchor>a1b4b33996aea85febe1205ccdd7fd3f4</anchor>
-      <clangid>c:@N@gfx@S@vlFrameChainImpl@FI@swapchain</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>ptr&lt; vlQueue &gt;</type>
-      <name>queue</name>
-      <anchorfile>structgfx_1_1vlFrameChainImpl.html</anchorfile>
-      <anchor>a07240202903ea7652cbdd4c83e6a374a</anchor>
-      <clangid>c:@N@gfx@S@vlFrameChainImpl@FI@queue</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>ptr&lt; vlCommandPool &gt;</type>
-      <name>commandPool</name>
-      <anchorfile>structgfx_1_1vlFrameChainImpl.html</anchorfile>
-      <anchor>ac5b8b0be5e47b0f1589ac7a1640d74e2</anchor>
-      <clangid>c:@N@gfx@S@vlFrameChainImpl@FI@commandPool</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
+      <type>int</type>
       <name>currentFrame</name>
       <anchorfile>structgfx_1_1vlFrameChainImpl.html</anchorfile>
-      <anchor>ae28943eabb15746067b983d14245c568</anchor>
+      <anchor>a81c303414bc1140fa676f5cd8f32cb4b</anchor>
       <clangid>c:@N@gfx@S@vlFrameChainImpl@FI@currentFrame</clangid>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>uint32_t</type>
+      <type>int</type>
       <name>imageIndex</name>
       <anchorfile>structgfx_1_1vlFrameChainImpl.html</anchorfile>
-      <anchor>a0cf8bc6593a26c1c01917cb854af1358</anchor>
+      <anchor>a60faf6b154fbb4d42b1115b342835087</anchor>
       <clangid>c:@N@gfx@S@vlFrameChainImpl@FI@imageIndex</clangid>
       <arglist></arglist>
     </member>
@@ -12663,28 +12112,20 @@
       <arglist>(bool &amp;success)</arglist>
     </member>
     <member kind="function">
-      <type>ptr&lt; vlWindow &gt;</type>
-      <name>getRootWindow</name>
-      <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
-      <anchor>a4fd75f682bba10de9a1d20256dd9d901</anchor>
-      <clangid>c:@N@gfx@S@vlImpl@F@getRootWindow#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>VmaAllocator</type>
-      <name>getVmaAllocator</name>
-      <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
-      <anchor>a768383de5201f875d20d1d927880e756</anchor>
-      <clangid>c:@N@gfx@S@vlImpl@F@getVmaAllocator#</clangid>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
       <type>vl *</type>
       <name>vlCreate</name>
       <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
       <anchor>a28b7dc29141a2a37ed1f70e3c6b608a3</anchor>
       <clangid>c:@N@gfx@S@vlImpl@F@vlCreate#$@N@gfx@S@vlCreateInfo#</clangid>
       <arglist>(vlCreateInfo info)</arglist>
+    </member>
+    <member kind="function">
+      <type>ptr&lt; vlWindow &gt;</type>
+      <name>getRootWindow</name>
+      <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
+      <anchor>a4fd75f682bba10de9a1d20256dd9d901</anchor>
+      <clangid>c:@N@gfx@S@vlImpl@F@getRootWindow#</clangid>
+      <arglist>() override</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -12804,14 +12245,6 @@
       <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
       <anchor>af52233c6a3d8a286799f2ef41d6f8135</anchor>
       <clangid>c:@N@gfx@S@vlImpl@FI@hasDebugger</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>VmaAllocator</type>
-      <name>vmaAllocator</name>
-      <anchorfile>structgfx_1_1vlImpl.html</anchorfile>
-      <anchor>a0adea11f9e875c504ce77950e538a80a</anchor>
-      <clangid>c:@N@gfx@S@vlImpl@FI@vmaAllocator</clangid>
       <arglist></arglist>
     </member>
   </compound>
@@ -15148,7 +14581,6 @@
     <class kind="struct">gfx::vlBuffer</class>
     <class kind="struct">gfx::vlBufferImpl</class>
     <class kind="struct">gfx::vlBufferState</class>
-    <class kind="struct">gfx::vlBufferUtil</class>
     <class kind="struct">gfx::vlCommandBuffer</class>
     <class kind="struct">gfx::vlCommandBufferCreateInfo</class>
     <class kind="struct">gfx::vlCommandBufferImpl</class>
@@ -15162,7 +14594,6 @@
     <class kind="struct">gfx::vlDeviceMemory</class>
     <class kind="struct">gfx::vlDeviceMemoryCreateInfo</class>
     <class kind="struct">gfx::vlDeviceMemoryImpl</class>
-    <class kind="struct">gfx::vlDynamicBuffer</class>
     <class kind="struct">gfx::vlFence</class>
     <class kind="struct">gfx::vlFenceImpl</class>
     <class kind="struct">gfx::vlFrameBuffer</class>
@@ -15445,19 +14876,11 @@
     </member>
     <member kind="function">
       <type>ptr&lt; vlBuffer &gt;</type>
-      <name>vlBufferCreateStatic</name>
-      <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>af1ca7f1225ad6ea539946819687616cb</anchor>
-      <clangid>c:@N@gfx@F@vlBufferCreateStatic#i#i#i#b#</clangid>
-      <arglist>(VkBufferUsageFlags bindFlags, VkMemoryAllocateFlags memoryProperties, uint32_t size, bool readable=false)</arglist>
-    </member>
-    <member kind="function">
-      <type>ptr&lt; vlBuffer &gt;</type>
       <name>vlBufferCreate</name>
       <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>a56399833f4f3d45c10c8ae9c459908da</anchor>
-      <clangid>c:@N@gfx@F@vlBufferCreate#i#i#i#b#</clangid>
-      <arglist>(VkBufferUsageFlags bindFlags, VkMemoryAllocateFlags memoryProperties, uint32_t size, bool readable=false)</arglist>
+      <anchor>aa27d37854133fd41d93561bbd876aa3b</anchor>
+      <clangid>c:@N@gfx@F@vlBufferCreate#i#i#i#</clangid>
+      <arglist>(VkBufferUsageFlags bindFlags, VkMemoryAllocateFlags memoryProperties, uint32_t size)</arglist>
     </member>
     <member kind="function">
       <type>ptr&lt; vlImageView &gt;</type>
@@ -15482,14 +14905,6 @@
       <anchor>afc66ae0be837719a1306a7770863578f</anchor>
       <clangid>c:@N@gfx@F@vlBufferUploadStaging#$@S@ptr&gt;#$@N@gfx@S@vlCommandBuffer#$@S@ptr&gt;#$@N@gfx@S@vlBuffer#I#l#*v#</clangid>
       <arglist>(ptr&lt; vlCommandBuffer &gt; cmd, ptr&lt; vlBuffer &gt; dst, int offset, size_t size, void *data)</arglist>
-    </member>
-    <member kind="function">
-      <type>const char *</type>
-      <name>vkResultString</name>
-      <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>a88d036a4916d98216de6a89ef4f8f4bf</anchor>
-      <clangid>c:@N@gfx@F@vkResultString#$@E@VkResult#</clangid>
-      <arglist>(VkResult result)</arglist>
     </member>
     <member kind="function">
       <type>ptr&lt; vlRenderPass &gt;</type>
@@ -15559,9 +14974,9 @@
       <type>ptr&lt; vlDeviceMemory &gt;</type>
       <name>vlDeviceMemoryAllocatote</name>
       <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>a02cb92e7856d386ae94037a8ace694ef</anchor>
-      <clangid>c:@N@gfx@F@vlDeviceMemoryAllocatote#&amp;1$@S@VkMemoryRequirements#i#</clangid>
-      <arglist>(const VkMemoryRequirements &amp;memoryRequirements, VkMemoryPropertyFlags flags)</arglist>
+      <anchor>ab576714dce90783fafda7edced0a77bc</anchor>
+      <clangid>c:@N@gfx@F@vlDeviceMemoryAllocatote#$@S@ptr&gt;#$@N@gfx@S@vlBuffer#i#</clangid>
+      <arglist>(ptr&lt; vlBuffer &gt; buffer, VkMemoryPropertyFlags flags)</arglist>
     </member>
     <member kind="function">
       <type>ptr&lt; vlImageView &gt;</type>
@@ -15621,11 +15036,19 @@
     </member>
     <member kind="function">
       <type>ptr&lt; vlBuffer &gt;</type>
-      <name>vlBufferCreateStatic</name>
+      <name>vlBufferAllocate</name>
       <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>a5ae759360da743769cd593b227e4fb9b</anchor>
-      <clangid>c:@N@gfx@F@vlBufferCreateStatic#i#i#i#b#</clangid>
-      <arglist>(VkBufferUsageFlags usage, VkMemoryPropertyFlags properties, uint32_t size, bool readable)</arglist>
+      <anchor>a47e912d2441a37b5f108fb3471a6784a</anchor>
+      <clangid>c:@N@gfx@F@vlBufferAllocate#i#i#</clangid>
+      <arglist>(VkBufferUsageFlags usage, uint32_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>ptr&lt; vlBuffer &gt;</type>
+      <name>vlBufferCreate</name>
+      <anchorfile>namespacegfx.html</anchorfile>
+      <anchor>a05bbfd709fa4c814bb3268a1e8cb6dd8</anchor>
+      <clangid>c:@N@gfx@F@vlBufferCreate#i#i#i#</clangid>
+      <arglist>(VkBufferUsageFlags usage, VkMemoryPropertyFlags properties, uint32_t size)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -15634,6 +15057,14 @@
       <anchor>a8685a4286ad5bef799ef2ce4b00e0511</anchor>
       <clangid>c:@N@gfx@F@findMemoryType#i#i#&amp;i#</clangid>
       <arglist>(uint32_t typeFilter, VkMemoryPropertyFlags properties, uint32_t &amp;type)</arglist>
+    </member>
+    <member kind="function">
+      <type>ptr&lt; vlDeviceMemory &gt;</type>
+      <name>vlAllocateMemory</name>
+      <anchorfile>namespacegfx.html</anchorfile>
+      <anchor>a207bd20a6d92260a1d5086fb7a387c7a</anchor>
+      <clangid>c:@N@gfx@F@vlAllocateMemory#&amp;1$@S@VkMemoryRequirements#i#</clangid>
+      <arglist>(const VkMemoryRequirements &amp;memRequirements, VkMemoryPropertyFlags flags)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; V &gt;</type>
@@ -15737,14 +15168,6 @@
       <anchorfile>namespacegfx.html</anchorfile>
       <anchor>a2031d4c17ef9b799df43114367322300</anchor>
       <clangid>c:@N@gfx@vkInstance</clangid>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>VkPhysicalDeviceProperties</type>
-      <name>vkPDeviceProps</name>
-      <anchorfile>namespacegfx.html</anchorfile>
-      <anchor>a3604d66ce047d8c241f3184a36a576c2</anchor>
-      <clangid>c:@N@gfx@vkPDeviceProps</clangid>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">

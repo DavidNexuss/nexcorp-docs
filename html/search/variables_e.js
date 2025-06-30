@@ -12,7 +12,5 @@ var searchData=
   ['onrealloc_9',['onRealloc',['../structdrmp3__allocation__callbacks.html#a4e7e5575a36cf980600bd2d3b82d5550',1,'drmp3_allocation_callbacks']]],
   ['onseek_10',['onSeek',['../structdrmp3.html#ab40a369b3de3d2991076a566570a459b',1,'drmp3::onSeek'],['../structdrwav.html#a71fa3abce7f96f79ba2e791fb97ed256',1,'drwav::onSeek']]],
   ['onwrite_11',['onWrite',['../structdrwav.html#a1ca22d7ee1b573fe1d758e131f486e60',1,'drwav']]],
-  ['optimize_5fthreshold_12',['OPTIMIZE_THRESHOLD',['../allocator_8hpp.html#a7cad6a6fc352762c3bd20152503a0867',1,'allocator.hpp']]],
-  ['optimizetargetcounter_5f_13',['optimizeTargetCounter_',['../structAllocator.html#a1f17403ec7da7af4a6cd16404f1bfa59',1,'Allocator']]],
-  ['orientation_14',['orientation',['../structaudio_1_1ListenerImpl.html#ad3367d3231c59ed4d4654a1382c17e29',1,'audio::ListenerImpl']]]
+  ['orientation_12',['orientation',['../structaudio_1_1ListenerImpl.html#ad3367d3231c59ed4d4654a1382c17e29',1,'audio::ListenerImpl']]]
 ];

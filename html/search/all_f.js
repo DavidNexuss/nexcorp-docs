@@ -27,12 +27,7 @@ var searchData=
   ['operator_3c_24',['operator&lt;',['../structptr.html#a88c6e9f964cbb195f3da07e4c6fc7f3c',1,'ptr']]],
   ['operator_3d_3d_25',['operator==',['../structgfx_1_1vlDescriptorSetLayoutBinding.html#a28ccf75c30fd09eff6c6d8a36f6d77e3',1,'gfx::vlDescriptorSetLayoutBinding::operator==()'],['../structptr.html#ae3ca11f6b2ee1a800897c4970ba5a77d',1,'ptr::operator==()'],['../structptr__set.html#a02cfd8e9165a811d49981691c3bd7817',1,'ptr_set::operator==()'],['../structSharedSetKey.html#a6e705824b6d5378686148f599e49d8b3',1,'SharedSetKey::operator==()'],['../classntl_1_1slotter_1_1iterator.html#a9b51c82a195e18dc4b9406f3d7193042',1,'ntl::slotter::iterator::operator==()']]],
   ['operator_5b_5d_26',['operator[]',['../classntl_1_1slotter.html#a5be6359058de280c4c57ad964cd45793',1,'ntl::slotter::operator[](int index)'],['../classntl_1_1slotter.html#a0e7c19a7bc0512cb761864e80618fe10',1,'ntl::slotter::operator[](int index) const']]],
-  ['opspersecond_27',['opsPerSecond',['../structOpStats.html#abe79297abedaef77cfda102ab297b29d',1,'OpStats']]],
-  ['opstats_28',['OpStats',['../structOpStats.html',1,'']]],
-  ['optimize_29',['optimize',['../structAllocator.html#a0cf6f4d97a354fbc1f5d80616a0c7072',1,'Allocator']]],
-  ['optimize_5fthreshold_30',['OPTIMIZE_THRESHOLD',['../allocator_8hpp.html#a7cad6a6fc352762c3bd20152503a0867',1,'allocator.hpp']]],
-  ['optimizetargetcounter_5f_31',['optimizeTargetCounter_',['../structAllocator.html#a1f17403ec7da7af4a6cd16404f1bfa59',1,'Allocator']]],
-  ['opus_32',['OPUS',['../namespaceserialize.html#a4478fff26aa1db797001e94621028781a4c2223596711a6a941bc19e8067ceef9',1,'serialize']]],
-  ['opus_2ecpp_33',['opus.cpp',['../opus_8cpp.html',1,'']]],
-  ['orientation_34',['orientation',['../structaudio_1_1ListenerImpl.html#ad3367d3231c59ed4d4654a1382c17e29',1,'audio::ListenerImpl']]]
+  ['opus_27',['OPUS',['../namespaceserialize.html#a4478fff26aa1db797001e94621028781a4c2223596711a6a941bc19e8067ceef9',1,'serialize']]],
+  ['opus_2ecpp_28',['opus.cpp',['../opus_8cpp.html',1,'']]],
+  ['orientation_29',['orientation',['../structaudio_1_1ListenerImpl.html#ad3367d3231c59ed4d4654a1382c17e29',1,'audio::ListenerImpl']]]
 ];

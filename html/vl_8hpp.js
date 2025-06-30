@@ -34,6 +34,5 @@ var vl_8hpp =
     [ "gfx::vlReset", "namespacegfx.html#ad15c2f1117a4161cd898222f3aecfb14", null ],
     [ "gfx::vkDevice", "namespacegfx.html#a312f86cafe9552bf007008e8e112035f", null ],
     [ "gfx::vkInstance", "namespacegfx.html#a2031d4c17ef9b799df43114367322300", null ],
-    [ "gfx::vkPDevice", "namespacegfx.html#aa79c356e0bcd94a423d5ba73892d7684", null ],
-    [ "gfx::vkPDeviceProps", "namespacegfx.html#a3604d66ce047d8c241f3184a36a576c2", null ]
+    [ "gfx::vkPDevice", "namespacegfx.html#aa79c356e0bcd94a423d5ba73892d7684", null ]
 ];

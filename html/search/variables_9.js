@@ -5,7 +5,7 @@ var searchData=
   ['ima_2',['ima',['../structdrwav.html#a31a2d6f7c268bf8dbbba4434add6107b',1,'drwav']]],
   ['image_3',['image',['../structgfx_1_1PendingImageBarrier.html#a543bcf405af4fc1ea35329cd4b1aa92f',1,'gfx::PendingImageBarrier']]],
   ['imageavailable_4',['imageAvailable',['../structgfx_1_1vlFrameChainImpl_1_1vlFrame.html#a01e3f6f603671c15ddb2cd993b2a8660',1,'gfx::vlFrameChainImpl::vlFrame']]],
-  ['imageindex_5',['imageIndex',['../structgfx_1_1vlQueuePresentInfo.html#a8355e642719556be8e96c0f9f220d9dd',1,'gfx::vlQueuePresentInfo::imageIndex'],['../structgfx_1_1vlFrameChainImpl.html#a0cf8bc6593a26c1c01917cb854af1358',1,'gfx::vlFrameChainImpl::imageIndex']]],
+  ['imageindex_5',['imageIndex',['../structgfx_1_1vlQueuePresentInfo.html#a8355e642719556be8e96c0f9f220d9dd',1,'gfx::vlQueuePresentInfo::imageIndex'],['../structgfx_1_1vlFrameChainImpl.html#a60faf6b154fbb4d42b1115b342835087',1,'gfx::vlFrameChainImpl::imageIndex']]],
   ['images_6',['images',['../structgfx_1_1vlSwapChainImpl.html#a5184ef57f80f93aba0cc35c940cafc10',1,'gfx::vlSwapChainImpl']]],
   ['imagestates_7',['imageStates',['../structgfx_1_1vlCommandBufferImpl.html#a843a535e94a82c448bd48304fea7c22d',1,'gfx::vlCommandBufferImpl']]],
   ['imageview_8',['imageView',['../structgfx_1_1vlImageViewImpl.html#af2a25178c352018b181ee98556928617',1,'gfx::vlImageViewImpl']]],
@@ -28,7 +28,6 @@ var searchData=
   ['instanced_25',['instanced',['../structgfx_1_1vlVertex.html#ad600cc36e1e094f774c1f3bbcfbeb5f2',1,'gfx::vlVertex']]],
   ['internal_26',['internal',['../structgfx_1_1vlDeviceMemoryImpl.html#a0c552999f1927c71847cb1895e67d51d',1,'gfx::vlDeviceMemoryImpl::internal'],['../structgfx_1_1vlSurfaceImpl.html#a6744d4d4645c8b6712e01c5fd1c54e21',1,'gfx::vlSurfaceImpl::internal']]],
   ['intval_27',['intVal',['../structvm_1_1ExecutionParameter.html#a38df60bbf59e615a5f3e137561eafe09',1,'vm::ExecutionParameter']]],
-  ['invalid_5fbucket_28',['INVALID_BUCKET',['../allocator_8hpp.html#adfea7541e8681cdb82e978cbedbd91c8',1,'allocator.hpp']]],
-  ['iscbr_29',['isCBR',['../structdrmp3.html#a1bb77968f1bc5d91ad53835852a58a55',1,'drmp3']]],
-  ['isvbr_30',['isVBR',['../structdrmp3.html#a40708454ddcd6ff34d56e61628d90040',1,'drmp3']]]
+  ['iscbr_28',['isCBR',['../structdrmp3.html#a1bb77968f1bc5d91ad53835852a58a55',1,'drmp3']]],
+  ['isvbr_29',['isVBR',['../structdrmp3.html#a40708454ddcd6ff34d56e61628d90040',1,'drmp3']]]
 ];

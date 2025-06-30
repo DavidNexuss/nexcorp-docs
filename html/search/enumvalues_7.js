@@ -1,4 +1,23 @@
 var searchData=
 [
-  ['unknown_0',['Unknown',['../namespaceserialize.html#a4478fff26aa1db797001e94621028781a88183b946cc5f0e8c96b2e66e1c74a7e',1,'serialize']]]
+  ['vl_5fqueue_5fcompute_0',['VL_QUEUE_COMPUTE',['../namespacegfx.html#ae37ee7aa41ab04f12f19174685e4beefab615d1b409ea6afbc269a1f3ddfd2615',1,'gfx']]],
+  ['vl_5fqueue_5fdownload_1',['VL_QUEUE_DOWNLOAD',['../namespacegfx.html#ae37ee7aa41ab04f12f19174685e4beefa4218de8a5ac121ba8597be2fb0e5fcf6',1,'gfx']]],
+  ['vl_5fqueue_5ffamily_5fcount_2',['VL_QUEUE_FAMILY_COUNT',['../namespacegfx.html#ae37ee7aa41ab04f12f19174685e4beefaa7d2d386cd4af7640bc8e5277ef217f2',1,'gfx']]],
+  ['vl_5fqueue_5fgraphics_3',['VL_QUEUE_GRAPHICS',['../namespacegfx.html#ae37ee7aa41ab04f12f19174685e4beefade9cec79fcfcd297db9f9135a1ddc3dd',1,'gfx']]],
+  ['vl_5fqueue_5fupload_4',['VL_QUEUE_UPLOAD',['../namespacegfx.html#ae37ee7aa41ab04f12f19174685e4beefae4982eb85fd5ef5043d5eb4c490c7d41',1,'gfx']]],
+  ['vl_5fstage_5fcompute_5',['VL_STAGE_COMPUTE',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a34fce29999c30fdc109bbb31efc9bf32',1,'gfx']]],
+  ['vl_5fstage_5ffragment_6',['VL_STAGE_FRAGMENT',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a0c8f3f1b7eb987e3024f21ac0de7cb15',1,'gfx']]],
+  ['vl_5fstage_5fgeometry_7',['VL_STAGE_GEOMETRY',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43ad4d2bd7c8d0a4762e2bd15bd66400076',1,'gfx']]],
+  ['vl_5fstage_5fmesh_8',['VL_STAGE_MESH',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a7e7abd8e0c641451e28ce3ef2e0be3dd',1,'gfx']]],
+  ['vl_5fstage_5ftesselation_5fcontrol_9',['VL_STAGE_TESSELATION_CONTROL',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a6975777c1c1d68f6f9e1050b0ea6f29c',1,'gfx']]],
+  ['vl_5fstage_5ftesselation_5fevaluation_10',['VL_STAGE_TESSELATION_EVALUATION',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a95f0108428b9e98181e1dcaee5187488',1,'gfx']]],
+  ['vl_5fstage_5fundefined_11',['VL_STAGE_UNDEFINED',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43a8e0ecd61fd3c797c3a00615d83610bab',1,'gfx']]],
+  ['vl_5fstage_5fvertex_12',['VL_STAGE_VERTEX',['../namespacegfx.html#a1aa787227b79356182cf30698b64df43af6b47547305167924fa7fd57eff1893d',1,'gfx']]],
+  ['vl_5ftransition_5fauto_13',['VL_TRANSITION_AUTO',['../namespacegfx.html#af28b6fe4e4b2dfd9c3b2ced4f4aca9cdacdbf52917660040ebeebfe004c5e76bd',1,'gfx']]],
+  ['vl_5ftransition_5fnone_14',['VL_TRANSITION_NONE',['../namespacegfx.html#af28b6fe4e4b2dfd9c3b2ced4f4aca9cdace25cb64d1b0c0149c22e183522db8c1',1,'gfx']]],
+  ['vl_5ftransition_5ftransition_15',['VL_TRANSITION_TRANSITION',['../namespacegfx.html#af28b6fe4e4b2dfd9c3b2ced4f4aca9cdaef25389465886fb019a7ba289103e1a4',1,'gfx']]],
+  ['vl_5fupdate_5fdynamic_16',['VL_UPDATE_DYNAMIC',['../namespacegfx.html#aa0915865cebd8cd0b500bc463348b803a17ce837deff8a2cef857203c651a74f0',1,'gfx']]],
+  ['vl_5fupdate_5fstatic_17',['VL_UPDATE_STATIC',['../namespacegfx.html#aa0915865cebd8cd0b500bc463348b803a7b2aad8f251771c3c0367eada4c55d02',1,'gfx']]],
+  ['vl_5fupdate_5fstream_18',['VL_UPDATE_STREAM',['../namespacegfx.html#aa0915865cebd8cd0b500bc463348b803a4ef1a7161183bceba2a34957b2140f49',1,'gfx']]],
+  ['vl_5fupdate_5fundefined_19',['VL_UPDATE_UNDEFINED',['../namespacegfx.html#aa0915865cebd8cd0b500bc463348b803a10299bbcd6acb3fd7c3cd8ad95d9bfea',1,'gfx']]]
 ];

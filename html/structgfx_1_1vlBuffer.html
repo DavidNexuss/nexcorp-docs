@@ -100,26 +100,23 @@ Inheritance diagram for gfx::vlBuffer:</div>
  <div class="center">
   <img src="structgfx_1_1vlBuffer.png" usemap="#gfx_3A_3AvlBuffer_map" alt=""/>
   <map id="gfx_3A_3AvlBuffer_map" name="gfx_3A_3AvlBuffer_map">
-<area href="structObject.html" alt="Object" shape="rect" coords="69,0,198,24"/>
-<area href="structgfx_1_1vlBufferUtil.html" alt="gfx::vlBufferUtil" shape="rect" coords="69,112,198,136"/>
-<area href="structgfx_1_1vlBufferImpl.html" alt="gfx::vlBufferImpl" shape="rect" coords="0,168,129,192"/>
-<area href="structgfx_1_1vlDynamicBuffer.html" alt="gfx::vlDynamicBuffer" shape="rect" coords="139,168,268,192"/>
+<area href="structObject.html" alt="Object" shape="rect" coords="0,0,102,24"/>
+<area href="structgfx_1_1vlBufferImpl.html" alt="gfx::vlBufferImpl" shape="rect" coords="0,112,102,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e890be2f6d286a2813b02640b856ed1" id="r_a8e890be2f6d286a2813b02640b856ed1"><td class="memItemLeft" align="right" valign="top">virtual VkMemoryAllocateFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e890be2f6d286a2813b02640b856ed1">getMemoryProperties</a> ()=0</td></tr>
 <tr class="memitem:a5c3a93ec6855fe7cd472b81e16a2ea8b" id="r_a5c3a93ec6855fe7cd472b81e16a2ea8b"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c3a93ec6855fe7cd472b81e16a2ea8b">map</a> (uint32_t offset, uint32_t size)=0</td></tr>
 <tr class="memitem:a9ca97ba15b580407fc2dcfd524031cf5" id="r_a9ca97ba15b580407fc2dcfd524031cf5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca97ba15b580407fc2dcfd524031cf5">unmap</a> ()=0</td></tr>
 <tr class="memitem:aa703edd84ddb1be2bd7339500e36b6a0" id="r_aa703edd84ddb1be2bd7339500e36b6a0"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa703edd84ddb1be2bd7339500e36b6a0">getSize</a> ()=0</td></tr>
+<tr class="memitem:adcab60351a2248df60b958b050031c88" id="r_adcab60351a2248df60b958b050031c88"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcab60351a2248df60b958b050031c88">isHostVisible</a> ()=0</td></tr>
+<tr class="memitem:aadfdfea4f158477048d0df8ca647d4bb" id="r_aadfdfea4f158477048d0df8ca647d4bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadfdfea4f158477048d0df8ca647d4bb">isHostCoherent</a> ()=0</td></tr>
+<tr class="memitem:add9fb61ca9c6f252e19946209c80c35e" id="r_add9fb61ca9c6f252e19946209c80c35e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9fb61ca9c6f252e19946209c80c35e">uploadStaging</a> (<a class="el" href="structptr.html">ptr</a>&lt; <a class="el" href="structgfx_1_1vlCommandBuffer.html">vlCommandBuffer</a> &gt; cmd, void *data, uint32_t offset, uint32_t size)=0</td></tr>
+<tr class="memitem:ac374fd3bd02367b13bca897c10489ab5" id="r_ac374fd3bd02367b13bca897c10489ab5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac374fd3bd02367b13bca897c10489ab5">upload</a> (void *data, uint32_t offset, uint32_t size)=0</td></tr>
 <tr class="memitem:ad5c8ee925f9c3de61188ac08ac4bf262" id="r_ad5c8ee925f9c3de61188ac08ac4bf262"><td class="memItemLeft" align="right" valign="top">virtual VkBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c8ee925f9c3de61188ac08ac4bf262">getInternal</a> ()=0</td></tr>
 <tr class="memitem:a1940f0d166703079b11dc63fa3af08db" id="r_a1940f0d166703079b11dc63fa3af08db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1940f0d166703079b11dc63fa3af08db">flush</a> (size_t offset, size_t size)=0</td></tr>
 <tr class="memitem:a353909433393c493f79e57f4c86ad5e3" id="r_a353909433393c493f79e57f4c86ad5e3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a353909433393c493f79e57f4c86ad5e3">~vlBuffer</a> ()</td></tr>
-<tr class="memitem:af7cc645ec74ebe1f4a9b337a0394f3d6" id="r_af7cc645ec74ebe1f4a9b337a0394f3d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7cc645ec74ebe1f4a9b337a0394f3d6">uploadStaging</a> (<a class="el" href="structptr.html">ptr</a>&lt; <a class="el" href="structgfx_1_1vlCommandBuffer.html">vlCommandBuffer</a> &gt; cmd, void *data, uint32_t offset, uint32_t size)</td></tr>
-<tr class="memitem:a3ca2ace8a898ea2c652c5532f40aef14" id="r_a3ca2ace8a898ea2c652c5532f40aef14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca2ace8a898ea2c652c5532f40aef14">upload</a> (void *data, uint32_t offset, uint32_t size)</td></tr>
-<tr class="memitem:ac4ea577469f44b16b8de64ad89614a4d" id="r_ac4ea577469f44b16b8de64ad89614a4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4ea577469f44b16b8de64ad89614a4d">isHostVisible</a> ()</td></tr>
-<tr class="memitem:aff2f02451aace6c6ea940a46d42f5e62" id="r_aff2f02451aace6c6ea940a46d42f5e62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2f02451aace6c6ea940a46d42f5e62">isHostCoherent</a> ()</td></tr>
 <tr class="inherit_header pub_methods_structObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structObject')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="structObject.html">Object</a></td></tr>
 <tr class="memitem:aa3e791419d84c4c346ef9499513b8e00 inherit pub_methods_structObject" id="r_aa3e791419d84c4c346ef9499513b8e00"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObject.html#aa3e791419d84c4c346ef9499513b8e00">~Object</a> ()</td></tr>
 <tr class="memitem:aa3e791419d84c4c346ef9499513b8e00 inherit pub_methods_structObject" id="r_aa3e791419d84c4c346ef9499513b8e00"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structObject.html#aa3e791419d84c4c346ef9499513b8e00">~Object</a> ()</td></tr>
@@ -182,7 +179,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferUtil.html#ae13f2f64c594e244e5d86ea41ac47fc1">gfx::vlBufferUtil</a>.</p>
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a7ff9a8047b2310e7ad74c36a79d65e4a">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
@@ -209,34 +206,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#acb92ccddc4f5dc0f0ccdfd08dc23e63d">gfx::vlBufferImpl</a>, and <a class="el" href="structgfx_1_1vlDynamicBuffer.html#acac3c2b99884236ce02f68f8317e5a6c">gfx::vlDynamicBuffer</a>.</p>
-
-</div>
-</div>
-<a id="a8e890be2f6d286a2813b02640b856ed1" name="a8e890be2f6d286a2813b02640b856ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e890be2f6d286a2813b02640b856ed1">&#9670;&#160;</a></span>getMemoryProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual VkMemoryAllocateFlags gfx::vlBuffer::getMemoryProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a344fee74dd51636498f87da3d235e77e">gfx::vlBufferImpl</a>, and <a class="el" href="structgfx_1_1vlDynamicBuffer.html#abb787d07191294fb4fdb7d6d1ea426a7">gfx::vlDynamicBuffer</a>.</p>
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#acb92ccddc4f5dc0f0ccdfd08dc23e63d">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
@@ -263,41 +233,61 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a7950568a4e9bc8b66e16b4e921ef918c">gfx::vlBufferImpl</a>, and <a class="el" href="structgfx_1_1vlDynamicBuffer.html#a341fce18dbd6c23e43757ce3d05f4f13">gfx::vlDynamicBuffer</a>.</p>
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a7950568a4e9bc8b66e16b4e921ef918c">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
-<a id="aff2f02451aace6c6ea940a46d42f5e62" name="aff2f02451aace6c6ea940a46d42f5e62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff2f02451aace6c6ea940a46d42f5e62">&#9670;&#160;</a></span>isHostCoherent()</h2>
+<a id="aadfdfea4f158477048d0df8ca647d4bb" name="aadfdfea4f158477048d0df8ca647d4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfdfea4f158477048d0df8ca647d4bb">&#9670;&#160;</a></span>isHostCoherent()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gfx::vlBuffer::isHostCoherent </td>
+          <td class="memname">virtual bool gfx::vlBuffer::isHostCoherent </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#aa5f68bc913c4b82b0b9faee14106040d">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
-<a id="ac4ea577469f44b16b8de64ad89614a4d" name="ac4ea577469f44b16b8de64ad89614a4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4ea577469f44b16b8de64ad89614a4d">&#9670;&#160;</a></span>isHostVisible()</h2>
+<a id="adcab60351a2248df60b958b050031c88" name="adcab60351a2248df60b958b050031c88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcab60351a2248df60b958b050031c88">&#9670;&#160;</a></span>isHostVisible()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gfx::vlBuffer::isHostVisible </td>
+          <td class="memname">virtual bool gfx::vlBuffer::isHostVisible </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a49e7a9d702248311a9ce87d8f7a41f4c">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
@@ -328,7 +318,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a913adeada071eae29f47b1495915ab6d">gfx::vlBufferImpl</a>, <a class="el" href="structgfx_1_1vlBufferUtil.html#a1af811de9d3436ea3cfed5d7f2124fe9">gfx::vlBufferUtil</a>, and <a class="el" href="structgfx_1_1vlDynamicBuffer.html#a0d7e016ef1a6e61c39122c38a03ce2a4">gfx::vlDynamicBuffer</a>.</p>
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a913adeada071eae29f47b1495915ab6d">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
@@ -355,18 +345,21 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a6617e46540748f4a85d993f14e1a3ce1">gfx::vlBufferImpl</a>, <a class="el" href="structgfx_1_1vlBufferUtil.html#a61ac57f5c338a14a30d4416e4a788b1b">gfx::vlBufferUtil</a>, and <a class="el" href="structgfx_1_1vlDynamicBuffer.html#a36697b26ecf7b5f51299e511ba828712">gfx::vlDynamicBuffer</a>.</p>
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a6617e46540748f4a85d993f14e1a3ce1">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
-<a id="a3ca2ace8a898ea2c652c5532f40aef14" name="a3ca2ace8a898ea2c652c5532f40aef14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ca2ace8a898ea2c652c5532f40aef14">&#9670;&#160;</a></span>upload()</h2>
+<a id="ac374fd3bd02367b13bca897c10489ab5" name="ac374fd3bd02367b13bca897c10489ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac374fd3bd02367b13bca897c10489ab5">&#9670;&#160;</a></span>upload()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gfx::vlBuffer::upload </td>
+          <td class="memname">virtual void gfx::vlBuffer::upload </td>
           <td>(</td>
           <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
@@ -381,18 +374,28 @@ Public Attributes</h2></td></tr>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#abdf5759e7684cd07b8b8811786125bf6">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
-<a id="af7cc645ec74ebe1f4a9b337a0394f3d6" name="af7cc645ec74ebe1f4a9b337a0394f3d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7cc645ec74ebe1f4a9b337a0394f3d6">&#9670;&#160;</a></span>uploadStaging()</h2>
+<a id="add9fb61ca9c6f252e19946209c80c35e" name="add9fb61ca9c6f252e19946209c80c35e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9fb61ca9c6f252e19946209c80c35e">&#9670;&#160;</a></span>uploadStaging()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gfx::vlBuffer::uploadStaging </td>
+          <td class="memname">virtual void gfx::vlBuffer::uploadStaging </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structptr.html">ptr</a>&lt; <a class="el" href="structgfx_1_1vlCommandBuffer.html">vlCommandBuffer</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
         </tr>
@@ -412,7 +415,14 @@ Public Attributes</h2></td></tr>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structgfx_1_1vlBufferImpl.html#a394784f4f2424a45dd185f5987dccba7">gfx::vlBufferImpl</a>.</p>
 
 </div>
 </div>
@@ -431,9 +441,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following files:<ul>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/runtime/vl/<a class="el" href="vlBuffer_8hpp.html">vlBuffer.hpp</a></li>
-<li>src/runtime/vl/<a class="el" href="vlBuffer_8cpp.html">vlBuffer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

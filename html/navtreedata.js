@@ -64,19 +64,18 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"allocator_8hpp.html",
-"dr__mp3_8h.html#a9ccc0d2b259d24b25bb6eb3165c2b764",
-"globals_p.html",
-"stb__image_8h.html#a648037d4c55689328ba08c8f5d293df2",
-"structaudio_1_1ListenerImpl.html",
-"structgfx_1_1PendingBufferBarrier.html",
-"structgfx_1_1vlCommandBufferImpl.html#a82ccde040b5230b31f8838cc2fef5726",
-"structgfx_1_1vlFrameChain.html",
-"structgfx_1_1vlPipelineImpl.html#a82d6599d5f38f1a6f6108710cce28193",
-"structgfx_1_1vlSwapChainImpl.html#a4b7fa17f052e8ff7b3eefe40ba5dc5a4",
-"structio_1_1DataSource.html#aaab9e900ee510edba72460e3287bc23a",
-"structstbtt__bakedchar.html#a0708a6588a2768b68a3ae59002944b7c",
-"vlWindowGLFWImpl_8cpp.html"
+"angel_8cpp.html",
+"dr__mp3_8h.html#ab2f829766cb0ece0e5e76c189a124254",
+"hash_8hpp.html#a66c530fb496c810cfd2ed36773872a52",
+"stb__image_8h.html#a9ac0a7b2514e7b6069bcb79ee21ebc06",
+"structaudio_1_1SpeakerImpl.html#a4cfdd95536aea30ba7335dd66194bede",
+"structgfx_1_1vl.html#a9bf47e22e925f17b386aa8fbeeae897e",
+"structgfx_1_1vlCommandPool.html#ab48acedb3f37617291f635b87c1948ff",
+"structgfx_1_1vlImageViewImpl.html#a9cfa575db86c68e3372c886af98b148f",
+"structgfx_1_1vlQueueSubmissionResult_1_1CommandBufferResult.html#ad1f563edcfeda0973a0fa99a754900c8",
+"structgfx_1_1vlWindow.html",
+"structio_1_1LinuxDriver.html",
+"structvm_1_1AsEngineImpl.html#a45b37b5a6c5e56a68424de40f0e8ebee"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
