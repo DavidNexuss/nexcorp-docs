@@ -1,0 +1,28 @@
+var structgfx_1_1vlWindow =
+[
+    [ "~vlWindow", "structgfx_1_1vlWindow.html#ae4251b82f5aa012caef888ad63aad1d8", null ],
+    [ "begin", "structgfx_1_1vlWindow.html#a69016ef0003eb098294af4b109e32fa2", null ],
+    [ "createSwapchain", "structgfx_1_1vlWindow.html#a69807145eed8029eea1297505f44e165", null ],
+    [ "flush", "structgfx_1_1vlWindow.html#a5a58315a5b63dd12358faddb0b7f632f", null ],
+    [ "getFBOHeight", "structgfx_1_1vlWindow.html#a19c718138b7a8712ad2da21956bc0987", null ],
+    [ "getFBOWidth", "structgfx_1_1vlWindow.html#a2f2165eaadb5a084b1a846b04b24a2f8", null ],
+    [ "getHeight", "structgfx_1_1vlWindow.html#afe173fcbda7d7ab0e84de28c8f02f9b9", null ],
+    [ "getRA", "structgfx_1_1vlWindow.html#a0b23532135c5d1e5e5bfe8aa8ca5f8c4", null ],
+    [ "getScrollX", "structgfx_1_1vlWindow.html#a7f19a03b46acebfe5bd3ed0eae36790c", null ],
+    [ "getScrollY", "structgfx_1_1vlWindow.html#a48c0ad211734baf491d0702dee8f6c2e", null ],
+    [ "getSurface", "structgfx_1_1vlWindow.html#a9bf007b3bded1da0ec16820474234881", null ],
+    [ "getSwapchain", "structgfx_1_1vlWindow.html#a911e0528b2f4829b06cd05b922a9b4d8", null ],
+    [ "getSX", "structgfx_1_1vlWindow.html#a3b4fe6ca0bdaa99d00ef7ced4018ce11", null ],
+    [ "getSY", "structgfx_1_1vlWindow.html#ad9096e91bdd91024e47caf0552529dc2", null ],
+    [ "getWidth", "structgfx_1_1vlWindow.html#a60f796089ae605013da7ea0ba9bd73e9", null ],
+    [ "getX", "structgfx_1_1vlWindow.html#aeb3ee3b8411d26f5b6bb7bf87b8d4177", null ],
+    [ "getY", "structgfx_1_1vlWindow.html#ab0af9eaba044309fd95964a58d3ba685", null ],
+    [ "isKeyPressed", "structgfx_1_1vlWindow.html#ac080c274b1d009c34c84a0b1c84d4743", null ],
+    [ "isMousePressed", "structgfx_1_1vlWindow.html#a0076373b69a220533ec3287a69481e59", null ],
+    [ "setHeight", "structgfx_1_1vlWindow.html#a494b607243c3c29c2845ef5d994fa372", null ],
+    [ "setPos", "structgfx_1_1vlWindow.html#a333ca72cce1fef59e214f2a3077b5223", null ],
+    [ "setWidth", "structgfx_1_1vlWindow.html#abf37e17cbc1f91b816e39ddf94d15bda", null ],
+    [ "shouldClose", "structgfx_1_1vlWindow.html#a31fa0f99511bce65bb71e04ae68ec937", null ],
+    [ "shouldRender", "structgfx_1_1vlWindow.html#a862a6c63ab4e3fc83d36365e228305a2", null ],
+    [ "update", "structgfx_1_1vlWindow.html#aa84948107f27b514f07502f4909fc5b4", null ]
+];

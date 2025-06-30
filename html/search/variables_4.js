@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['data_0',['data',['../structdrwav____memory__stream.html#a284990f6414466a6d43794ed00a5057c',1,'drwav__memory_stream::data'],['../classntl_1_1slab.html#a21301b46635a94d59356492c6f42006c',1,'ntl::slab::data'],['../classntl_1_1slotter.html#a9e41d62715c9ff7ac0e1cd7fbca5cdfd',1,'ntl::slotter::data'],['../structstbtt____buf.html#a376d8cdacbc8295a7e88567ad52a0ac4',1,'stbtt__buf::data'],['../structstbtt__fontinfo.html#af348db379cf0e0e71a68603d00501d41',1,'stbtt_fontinfo::data']]],
+  ['datacapacity_1',['dataCapacity',['../structdrmp3.html#ac76c099fa2b2d5746a53114cdcb2404d',1,'drmp3::dataCapacity'],['../structdrwav____memory__stream__write.html#a9101d09c995e2934734d86313659d262',1,'drwav__memory_stream_write::dataCapacity']]],
+  ['datachunkdatapos_2',['dataChunkDataPos',['../structdrwav.html#ac072363918628b9c86f785ef6d88989c',1,'drwav']]],
+  ['datachunkdatasize_3',['dataChunkDataSize',['../structdrwav.html#a9b86f18b7e61119b7cb1508b1fa7ad81',1,'drwav']]],
+  ['dataconsumed_4',['dataConsumed',['../structdrmp3.html#a3439d84dab3fb458593e9bca81312942',1,'drmp3']]],
+  ['datasize_5',['dataSize',['../structdrmp3.html#ad1d4cb4cb6209977963313a27f34c3bd',1,'drmp3::dataSize'],['../structdrwav____memory__stream.html#ac9afa4dd398c46e0d690e41c79f1b984',1,'drwav__memory_stream::dataSize'],['../structdrwav____memory__stream__write.html#a9e01cbf6578e9f2b92b7ea7021078c71',1,'drwav__memory_stream_write::dataSize']]],
+  ['debugmessenger_6',['debugMessenger',['../structgfx_1_1vlImpl.html#a06059ced58879120b4cbb0722e39d293',1,'gfx::vlImpl']]],
+  ['decoder_7',['decoder',['../structdrmp3.html#aff4724123bbdf3b8e3071601c1f73ff7',1,'drmp3']]],
+  ['delayinpcmframes_8',['delayInPCMFrames',['../structdrmp3.html#af381f8773f9986e7e23ff88a4cf1bc48',1,'drmp3']]],
+  ['delta_9',['delta',['../structdrwav.html#a6b37897e3c7d52d65627b5c85bfbc2e5',1,'drwav']]],
+  ['dependencies_10',['dependencies',['../structgfx_1_1vlQueueSubmissionResult_1_1CommandBufferResult.html#ad1f563edcfeda0973a0fa99a754900c8',1,'gfx::vlQueueSubmissionResult::CommandBufferResult']]],
+  ['depth_11',['depth',['../structgfx_1_1vlFrameBufferCreateInfo.html#a0480d03ad881031f85e6697f05b94b57',1,'gfx::vlFrameBufferCreateInfo']]],
+  ['depthstencilattachment_12',['depthStencilAttachment',['../structgfx_1_1vlSubRenderPassCreateInfo.html#a8291ba9501fbdb5891733e80d853935a',1,'gfx::vlSubRenderPassCreateInfo']]],
+  ['destination_13',['destination',['../structCopyOperation.html#aabe7c5fed53cd1d938564291cd4efd6c',1,'CopyOperation']]],
+  ['device_14',['device',['../structgfx_1_1vlImpl_1_1vlDevice.html#a41f094f2ac779d3a1d22a23d86c7279f',1,'gfx::vlImpl::vlDevice::device'],['../structgfx_1_1vlImpl.html#acc9bc11b9a4fdee5400afb8a8361e428',1,'gfx::vlImpl::device'],['../namespaceaudio.html#a862c387010c1f32f4efab059c583d522',1,'audio::device']]],
+  ['deviceextensions_15',['deviceExtensions',['../structgfx_1_1vlImpl.html#a86378241fa36ba10098a4f2f9eb972f5',1,'gfx::vlImpl']]],
+  ['driver_16',['driver',['../structio_1_1FileImpl.html#acc6a0d5997ce7e1c7e70f05cf5fc4000',1,'io::FileImpl']]],
+  ['ds_17',['ds',['../structgfx_1_1vlFrameBufferCreateInfo.html#ad5cf93966ab4dc7e9fde76c6dbc684fa',1,'gfx::vlFrameBufferCreateInfo']]],
+  ['dstaccess_18',['dstAccess',['../structgfx_1_1PendingImageBarrier.html#a1d9373459499d4c63fe506b6c6269e4e',1,'gfx::PendingImageBarrier::dstAccess'],['../structgfx_1_1PendingBufferBarrier.html#a7204cae8bd53c3d39e1260aba6b4137f',1,'gfx::PendingBufferBarrier::dstAccess']]],
+  ['dstaccessmask_19',['dstAccessMask',['../structgfx_1_1vlTransitionMode.html#a53877970fccb9d3d89ec5d0e1c978d35',1,'gfx::vlTransitionMode']]],
+  ['dststage_20',['dstStage',['../structgfx_1_1PendingImageBarrier.html#a74d6a1c1545c944e29daa7352cc2edff',1,'gfx::PendingImageBarrier::dstStage'],['../structgfx_1_1PendingBufferBarrier.html#a171c4c36d8054c969afc8befc79af5c9',1,'gfx::PendingBufferBarrier::dstStage']]],
+  ['dststagemask_21',['dstStageMask',['../structgfx_1_1vlTransitionMode.html#aa16a43dadc7c4753a15f5aecc94d4e11',1,'gfx::vlTransitionMode']]],
+  ['duration_22',['duration',['../structaudio_1_1TrackImpl.html#a3a135d94a0a3a2cb9335f7b5a6946ca1',1,'audio::TrackImpl']]]
+];

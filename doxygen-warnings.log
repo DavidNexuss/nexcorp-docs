@@ -1,0 +1,16 @@
+error: Failed to map file extension 'h' to unsupported language 'cpp'.
+Check the EXTENSION_MAPPING setting in the config file.
+warning: Specified markdown mainpage 'README.md' has not been defined as input file
+error: /usr/include/stdio.h:34:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/unistd.h:226:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/wchar.h:35:10: fatal error: 'stddef.h' file not found [clang]
+error: /../lib64/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../include/c++/15.1.1/cstddef:52:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/time.h:29:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found [clang]
+error: /home/david/prime/nexcorp/src/runtime/serialize/dr_mp3.h:78:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/vulkan/vk_platform.h:62:14: fatal error: 'stddef.h' file not found [clang]
+error: /home/david/prime/nexcorp/lib/glfw/include/GLFW/glfw3.h:103:10: fatal error: 'stddef.h' file not found [clang]
+error: /usr/include/string.h:33:10: fatal error: 'stddef.h' file not found [clang]
+error: /home/david/prime/nexcorp/src/runtime/serialize/dr_wav.h:117:12: fatal error: 'stddef.h' file not found [clang]
+/home/david/prime/nexcorp/src/runtime/vl/vlSwapChain.cpp:223: warning: The following parameter of gfx::vlSwapChainImpl::vlSwapChainImpl(ptr< vlWindow > window, ptr< vlSwapChain > old) is not documented:
+  parameter 'old'
